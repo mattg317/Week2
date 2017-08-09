@@ -19,6 +19,9 @@ Range("K1").Value = "Percent Change"
 Range("L1").Value = "Total Stock Volume"
 Range("P1").Value = "Ticker"
 Range("Q1").Value = "Value"
+Range("O2").Value = "Greatest % Increase"
+Range("O3").Value = "Greatest % Decrease"
+Range("O4").Value = "Greatest Total Volume"
 
 
 ' Set initial values
