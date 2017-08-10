@@ -1,12 +1,10 @@
-# Checkboard layout
+# Checkerboard layout
 
-You are to create a checker board in excel.
+You are going to create a checker board in excel.
 
 ## Instructions
 
-* Using VBA scripts you are to create a checkerboard.
-
-* A checker board is 8x8 with alternating red and black squares.
+* Using VBA scripts, you are to create an 8x8 grid with alternating red and black squares.
 
 * You will need to use nested for loops, conditionals, mods and formatting in order to successfully create the board.
 
