@@ -4,7 +4,8 @@ Dim i As Integer
 Dim j As Integer
 Dim total As Integer
 
-total = 0
+' Initialize the total # of transactions to 1 
+total = 1
 ' set a variable to keep track of where to print credit credit card
 j = 0
 
@@ -24,7 +25,7 @@ For i = 2 To 101
         j = j + 1
         
         ' Reset total
-        total = 0
+        total = 1
 
     
     Else
