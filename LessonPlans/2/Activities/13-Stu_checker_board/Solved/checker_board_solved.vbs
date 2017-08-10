@@ -19,7 +19,7 @@ For k = 1 To 8
 
         Next i
     Else
-        ' Lopp for black start 2,4,6,8
+        ' Loop for black start 2,4,6,8
         For i = 1 To 8
 
             If i Mod 2 = 0 Then
