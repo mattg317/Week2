@@ -32,9 +32,9 @@ It looks like a large amount of people participated in this week's lotto and you
   * 5868182
   * 1841402
 
-* If anyone has any of those numbers, print them as runner ups.
-
 * Whoever comes up first will be our fourth place winner.
+
+* Print them to the sheet as well.
 
 ## Hint
 

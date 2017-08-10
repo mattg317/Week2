@@ -1,8 +1,11 @@
 Sub planets()
 
+' Set Dimensions
 Dim i As Integer
 Dim total As Integer
 Dim moons As Integer
+Dim mass As Single
+Dim earthDiamter As Integer
 
 ' Set variables
 total = 0
@@ -18,7 +21,7 @@ For i = 3 To 11
     moons = moons + Range("M" & i)
 
     ' BONUS
-    '
+    ' Take the current planets diameter minus the earths
     Range("H" & i) = Range("F" & i) - earthDiameter
     
 Next i
