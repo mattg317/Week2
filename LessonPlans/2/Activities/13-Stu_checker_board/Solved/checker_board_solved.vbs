@@ -1,37 +1,20 @@
-Sub CheckerBoard()
+' Nested For Loop
 
-' Loop Row at a time
-' For odd Rows color starts red
-' For even color starts black
+Sub ClassScanner()
+    
+    Dim TargetStudent as String
+    
+    ' Loop through the rows
+    For i = 1 to 3
 
-For k = 1 To 8
+        ' Loop through the columns
+        For j = 1 to 5 
 
-    If k Mod 2 = 0 Then
-        ' Loop for red starts at columns 1,3,5,7
-        For i = 1 To 8
-            ' if row is odd print black
-            If i Mod 2 <> 0 Then
-                Cells(i, k).Interior.ColorIndex = 1
-            ' else the row is even print red
-            Else
-                Cells(i, k).Interior.ColorIndex = 3
-            End If
+            ' Print the Student Name
+            MsgBox("Row: " & i & " Column: " & j & " | " & Cells(i, j).Value)
 
-        Next i
-    Else
-        ' Loop for black start 2,4,6,8
-        For i = 1 To 8
+        Next j
 
-            If i Mod 2 = 0 Then
-                Cells(i, k).Interior.ColorIndex = 1
-            Else
-                Cells(i, k).Interior.ColorIndex = 3
-            End If
-
-        Next i
-    End If
-
-Next k
-
+    Next i
 
 End Sub
