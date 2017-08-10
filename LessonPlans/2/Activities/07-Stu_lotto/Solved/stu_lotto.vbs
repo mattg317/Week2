@@ -10,12 +10,12 @@ Dim runner3 As Long
 ' Set the variable i as an integer since we will be using it to run our FOR loop
 Dim i As Integer
 
-' Sets the values for first, second, and third place that we will be checking against
+' Set the values for first, second, and third place that we will be checking against
 first_place = 3957481
 second_place = 5865187
 third_place = 2817729
 
-' BONUS: Sets the initial values runner ups
+' BONUS: Set the initial values runners-up
 runner1 = 2275339
 runner2 = 5868182
 runner3 = 1841402
