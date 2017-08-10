@@ -12,6 +12,8 @@ You are well on your way to becoming a programmer and Excel master! In this home
 
 * Create a script that will loop through each year of stock data and grab the total amount of volume each stock had over the year.
 
+* You will also need to display the ticker symbol to coincide with the total volume.
+
 * Your result should look as follows.
 
 ![easy_solution](Images/easy_solution.png)
@@ -25,6 +27,8 @@ You are well on your way to becoming a programmer and Excel master! In this home
    * The percent change from the what it opened the year at to what it closed.
 
    * The total Volume of the stock
+
+   * Ticker symbol
 
 * You should also have conditional formatting that will highlight positive change in green and negative change in red.
 
@@ -41,6 +45,12 @@ You are well on your way to becoming a programmer and Excel master! In this home
 * Solution will look as follows.
 
 ![hard_solution](Images/hard_solution.png)
+
+### BONUS
+
+* Make the appropriate adjustments to your script that will allow it to run on every worksheet just by running it once.
+
+* This can be applied to any of the difficulties.
 
 ### Other consideration.
 
