@@ -1,12 +1,12 @@
 # Gradebook
 
-Create a grade calculator using **conditionals**. This calculator will convert your numeric grade to a letter grade, and style the result cell accordingly.
+Create a grade calculator using **conditionals**. This calculator will convert your numeric grade to a letter grade, and style the resulting cell accordingly.
 
 ## Instructions
 
 * Using `unsolved_color.xlsm` as a starting point, create a button that, when pressed, will run a script that does the following:
 
-  * If the score is over 90, the student will receive an "A" in the letter grade cell, and the Pass/Warning/Fail cell will be filled green with the text "Pass".
+  * If the score is 90 or greater, the student will receive an "A" in the letter grade cell, and the Pass/Warning/Fail cell will be filled green with the text "Pass".
 
   * If the score is between 80 and 89 (inclusive), the student will receive a "B" in the letter grade cell, and the Pass/Warning/Fail cell will be filled green with the text "Pass".
 
