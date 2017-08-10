@@ -1,19 +1,19 @@
-# Budget Checker
+# Hornets Nest
 
 ## Instructions
 
-* Create a VBA Script to complete the budget checker.
+* Create a VBA script to handle the growing Hornet infestation on your spreadsheet.
 
-* There are three parts to this problem.
+* There are three parts to this problem:
 
-  * Part 1: Calculate the total after fees and enter the value in the "Total" cell
+  * Part I: Count the number of Hornets found and display the number to your user in the form of a message box.
 
-  * Part II: Create a Message Box for the user to designate whether the amount after fees is within or above budget.
+  * Part II: Modify the script such that it changes the word Hornets to "Bugs".
 
-  * Part III (Challenge): If the price is over budget, correct the price such that it fits within the max of the user budget. Be sure to round down! (Example: If the user's budget is 100 and the fees are 15%, the max price is 86)
+  * Part III: Modify the script a third time, this time keeping in mind that you have a limited number of Bugs and Bees. Use the full set of Bugs and Bees you have available to replace the Hornets. If you run out of Bugs or Bees provide the user with the message: "Oh no! We still have hornets..." 
 
 ## Hints
 
-* Break up the problem into smaller steps.
+* You may want to create a backup copy of your spreadsheet -- in case your macro writes over the contents.
 
-* Look at old code!
+* Take lots of deep breaths!
