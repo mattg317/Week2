@@ -2,10 +2,18 @@
 
 ## Instructions
 
-* Create a VBA script that replaces the hornets in the cells with bugs and bees.
+* Create a VBA Script to complete the budget checker.
 
-* Part I: Count the number of Hornets Found then provide users with the count.
+* There are three parts to this problem.
 
-* Part II: Each time you find Hornets replace them with "Bugs"
+  * Part 1: Calculate the total after fees and enter the value in the "Total" cell
 
-* Part III: You have a max amount of Bees and Hornets, utilize no more than what's provided. If there are still hornets left, provide the user with a message stating: "Oh no! We still have hornets..."
+  * Part II: Create a Message Box for the user to designate whether the amount after fees is within or above budget.
+
+  * Part III (Challenge): If the price is over budget, correct the price such that it fits within the max of the user budget. Be sure to round down! (Example: If the user's budget is 100 and the fees are 15%, the max price is 86)
+
+## Hints
+
+* Break up the problem into smaller steps.
+
+* Look at old code!
