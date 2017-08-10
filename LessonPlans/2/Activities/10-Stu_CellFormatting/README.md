@@ -17,5 +17,3 @@ Create a grade calculator using **conditionals**. This calculator will convert y
 ## BONUS
 
 * Create a second button that will reset the grades to our original state and add the previous result as the "Last Grade" in a separate cell.
-
-* Determine a way to keep a running tally of previous grades by adding to a new row every time the reset button is clicked (instead of overwriting the row)
